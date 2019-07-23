@@ -18,7 +18,6 @@ let plusGamesMaciek = document.getElementById("plusM");
 
 startGameButton.addEventListener('click', function() {
     reset();
-    
 });
 
 adrianButton.addEventListener('click', function() {
@@ -66,7 +65,7 @@ function reset() {
 }
 
 function adiCzyMaciek(gameStarter) {
-    if (gameNumber==7) {
+    if (aG == 7 || mG == 7) {
         alert('Adi: ' + aG + ', Maciek: '+mG);
         reset();
     }
